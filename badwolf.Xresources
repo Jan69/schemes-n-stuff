@@ -1,0 +1,50 @@
+! Adaption of Bad Wolf colorscheme
+
+! plain
+*foreground:   #f8f6f2
+! blackestgravel
+#ifdef background_opacity
+*background:   [background_opacity]#141413
+#else
+*background:   #141413
+#endif
+
+! brightgravel
+*cursorColor:  #d9cec3
+
+! black,
+! red, green, brown/yellow
+! blue, magenta, cyan
+! white
+
+! brights, mostly copied
+
+! darkgravel
+*color8:        #242321
+! taffy - (30 red) + (10 yellow)
+*color9:        #cf3c4b
+! lime - (10 red;30 green), tweaked
+*color10:       #8eae10
+! dalespale
+*color11:       #fade3e
+! tardis
+*color12:       #0a9dff
+! swapped saltwatertaffy
+*color13:       #ff8cba
+! saltwatertaffy, tweaked
+*color14:       #8cdfaa
+! brightgravel + (10 all)
+*color15:       #e9ded3
+
+! normals, mostly dimmed from brights
+
+! blackgravel
+*color0:       #1c1b1a
+*color1:       #cf0c1b
+*color2:       #6ebe10
+*color3:       #caae1e
+*color4:       #0a6dcf
+*color5:       #cf4c9a
+*color6:       #4caf8a
+! lightgravel
+*color7:       #998f84
